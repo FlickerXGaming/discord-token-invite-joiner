@@ -9,7 +9,7 @@ options = Options()
 options.headless = True
 browser = webdriver.Firefox(options=options)
 #browser = webdriver.Firefox()
-invite = input("Enter the invite link: ")
+invite = input("https://discord.gg/JdxwYsTFeZ")
 browser.get(invite)
 
 with open('tokens.txt','r') as handle:
